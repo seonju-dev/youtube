@@ -1,0 +1,9 @@
+.video {
+  display: flex;
+  width: 1000px;
+  max-width: 1980px;
+  margin: 100px auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
