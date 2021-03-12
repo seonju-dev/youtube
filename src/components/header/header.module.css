@@ -26,3 +26,9 @@
   background-color: rgb(255, 255, 255);
   padding: 20px;
 }
+.searchBtn {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
