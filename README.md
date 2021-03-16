@@ -19,3 +19,4 @@
 [기본 페이지]
 
  <img src="https://user-images.githubusercontent.com/62421526/111335050-69f91200-86b7-11eb-9366-901db49df8f2.PNG">
+<img src ="https://user-images.githubusercontent.com/62421526/111336623-c1e44880-86b8-11eb-9b5a-dea4b89c2550.PNG">
