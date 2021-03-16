@@ -32,3 +32,11 @@
   margin-top: 15px;
   font-family: "Roboto", sans-serif;
 }
+
+@media screen and (max-width: 48rem) {
+  .container {
+    flex-direction: column;
+    padding: 0;
+    margin: 10px auto;
+  }
+}

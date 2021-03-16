@@ -1,9 +1,9 @@
-import React, { useRef } from "react";
+import React, { memo, useRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import styles from "./header.module.css";
 
-const Header = ({ onSearch }) => {
+const Header = memo(({ onSearch }) => {
   const inputRef = useRef();
   window.onload = () => {
     inputRef.current.focus();
@@ -49,6 +49,6 @@ const Header = ({ onSearch }) => {
       </div>
     </div>
   );
-};
+});
 
 export default Header;

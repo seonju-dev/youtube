@@ -20,3 +20,9 @@
   grid-row-gap: 20px;
   padding-left: 10px;
 }
+@media screen and (max-width: 48rem) {
+  .video,
+  .video.list {
+    display: block;
+  }
+}
