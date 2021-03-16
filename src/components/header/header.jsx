@@ -1,6 +1,6 @@
 import React, { memo, useRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import { faSearch, faVideo } from "@fortawesome/free-solid-svg-icons";
 import styles from "./header.module.css";
 
 const Header = memo(({ onSearch }) => {
@@ -28,7 +28,7 @@ const Header = memo(({ onSearch }) => {
   return (
     <div className={styles.header}>
       <div className={styles.logo}>
-        <img src="../img/youtube.png" alt="youtube_logo" width="75" />
+        <FontAwesomeIcon icon={faVideo} size="2x" color="rgb(218, 115, 89)" />
         <h1>SSunTube</h1>
       </div>
       <div className={styles.search}>
