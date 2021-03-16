@@ -10,6 +10,7 @@
   text-align: start;
   overflow: auto;
 }
+
 .container:hover {
   transform: scale(1.05);
 }

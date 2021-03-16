@@ -16,10 +16,12 @@ const Header = ({ onSearch }) => {
 
   const onClick = () => {
     handleSearch();
+    inputRef.current.value = null;
   };
   const onKeyPress = (event) => {
     if (event.key === "Enter") {
       handleSearch();
+      inputRef.current.value = null;
     }
   };
 
