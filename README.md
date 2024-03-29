@@ -12,7 +12,7 @@
 - youtube API를 이용하여 현재 조회수가 높은 youtube 동영상을 검색하고, 나타낸다
   반응형으로 작업
 
-### 배포사이트 : https://seonju-dev.github.io/youtube/
+### 배포사이트 : https://seonjuuuu.github.io/youtube/
 
 ### 페이지 이미지
 
